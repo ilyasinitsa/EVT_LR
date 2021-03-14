@@ -1,0 +1,38 @@
+.page-header {
+    box-sizing: border-box;
+    width: 100%;
+    background: #EC9F67;
+    height: 120px;
+}
+
+.page-navigation {
+    font-family: 'Shadows Into Light Two', cursive;
+    box-sizing: border-box;
+    color: #000000;
+    display: grid;
+    font-size: 30px;
+    grid-template-columns: 80px 80px repeat(2, 1fr) 3fr repeat(3, 1fr);
+    height: 100%;
+    padding: 0 100px;
+}
+
+.page-navigation > a {
+    color: #000000;
+    text-decoration: none;
+    justify-self: center;
+    align-self: center;
+}
+
+.company-name {
+    align-self: center;
+    font-size: 48px;
+    justify-self: center;
+    text-transform: uppercase;
+}
+
+.search-button {
+    border: none;
+    background: none;
+    font-family: 'Shadows Into Light Two', cursive;
+    outline: none;
+}

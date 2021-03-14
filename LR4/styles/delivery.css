@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+}
+
+html {
+    width: 1920px;
+    height: auto;
+    margin: 0 auto;
+    overflow-x: hidden;
+}
+
+.delivery-info {
+    box-sizing: border-box;
+    margin: 58px 51px 0 91px;
+}
+
+.delivry-info-title {
+    height: 187px;
+    width: 780px;
+}
+
+.delivery-adresses {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 1738px;
+    margin-bottom: 51px;
+    width: 1000px;    
+}
+
+.delivery-zones {
+    background: no-repeat url("https://via.placeholder.com/1774x277");
+    box-sizing: border-box;
+    height: 277px;
+    margin-bottom: 50px;
+    padding: 18px 41px;
+    width: 100%;
+}
+
+.delivery-zones-map {
+    margin-bottom: 130px;
+}
+
+.contact-info-container {
+    background: no-repeat url("https://via.placeholder.com/873x661");
+    background-position-x: center;
+    box-sizing: border-box;
+    height: 703px;
+    padding-top: 98px;
+    width: 100%;
+}
+
+.contact-info-background {
+    background: #EC9F67;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 414px;
+    padding: 41px 109px 39px 203px;
+    width: 100%;
+}
+
+.contact-info {
+    background: #ffffff;
+    height: 319px;
+    width: 793px;
+    margin-top: 14px;
+}
+
+.contact-info-title {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 90px;
+    padding-top: 19px;
+    width: 550px;
+}
+
+.contact-info-image {
+    border: 33px solid #ffffff;
+    border-bottom: none;
+}
+
+.contact-info-description {
+    text-align: center;
+}
